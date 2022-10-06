@@ -33,11 +33,11 @@ body::before {
 }
 
 a {
-  color: #12d640;
+  color: #FFD700;
 }
 
 a:hover {
-  color: #12d640;
+  color: #FFD700;
   text-decoration: none;
 }
 
@@ -80,11 +80,11 @@ h1, h2, h3, h4, h5, h6 {
 #header h2 {
   font-size: 24px;
   margin-top: 20px;
-  color: #12d640;
+  color: #FFD700;
 }
 
 #header h2 span {
-  color: #ffc107;
+  color: #FFD700;
   border-bottom: 2px solid #FFD700;
   padding-bottom: 6px;
 }
