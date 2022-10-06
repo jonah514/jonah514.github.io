@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header h2 span {
   color: #ffc107;
-  border-bottom: 2px solid #1c7d32;
+  border-bottom: 2px solid #FFD700;
   padding-bottom: 6px;
 }
 
@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .social-links a:hover {
-  background: #1c7d32;
+  background: #FFD700;
 }
 
 @media (max-width: 992px) {
@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #12d640;
+  color: #FFD700;
   text-decoration: none;
 }
 
@@ -239,7 +239,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #1c7d32;
+  color: #FFD700;
   text-decoration: none;
 }
 
