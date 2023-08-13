@@ -50,12 +50,14 @@
               </ul>
   
                 <p>
-                Tasked with mapping/analyzing worldwide flight and maritime data for an intelligence organization.               
+                I worked on an intern team at Arcfield tasked with mapping/analyzing worldwide flight and maritime data for an intelligence organization and acted as lead developer in our very background-diverse team.               
                 </p>
                 <p>
-                DETAILS
-                </p>
-                <iframe width="600" height="380"
+                    We first received compressed flight and maritime data from program managers in the form of ADS-B and AIS data from FlightRadar24 and IntelliEarth. That raw data was then uploaded to an AWS S3, extracted, preprocessed, and cleaned with a Lambda function, and eventually uploaded to a
+                    series of DynamoDB tables. I then parsed path histories for each flight and ship and created a table with a hashmap structure for fast querying. The backend program was built using Python, and I used HTML/CSS/Javascript in addition to Leaflet for the basic mapping functionalities.
+                I also added additional mapping functionalities like "geofencing", weather radar displays, heatmaps, and trajectory prediction with A* and geodesic heuristics. 
+                    Lastly, I used the Flask web-framework to allow the front and back ends of the program to communicate with each other and send BOTO3 requests to DynamoDB.
+                    <iframe width="600" height="380"
                     src="https://www.youtube.com/embed/REkQxea2cug">
                 </iframe>
             </div>
